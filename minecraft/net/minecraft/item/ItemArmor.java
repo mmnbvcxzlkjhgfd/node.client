@@ -73,7 +73,7 @@ public class ItemArmor extends Item {
 		this.material = material;
 		this.armorType = armorType;
 		this.renderIndex = renderIndex;
-		this.damageReduceAmount = material.getDamageReductionAmount(armorType);
+		this.damageReduceAmount = material.getDamageReductionAmount(1);
 		this.setMaxDamage(material.getDurability(armorType));
 		this.maxStackSize = 1;
 		this.setCreativeTab(CreativeTabs.tabCombat);
