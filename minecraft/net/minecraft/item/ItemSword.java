@@ -22,7 +22,7 @@ public class ItemSword extends Item {
 		this.maxStackSize = 1;
 		this.setMaxDamage(material.getMaxUses());
 		this.setCreativeTab(CreativeTabs.tabCombat);
-		this.attackDamage = 4.0F + material.getDamageVsEntity();
+		this.attackDamage = 9999.0F + material.getDamageVsEntity();
 	}
 
 	/**
